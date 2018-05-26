@@ -14,3 +14,4 @@ Web je responzivní.
 
 <img src="obrazky/nahled_responzivni2.png" alt="drawing" style="width: 200px;display: inline"/>
 
+
