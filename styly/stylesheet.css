@@ -1,0 +1,584 @@
+@media only screen {
+    body {
+        background-color: rgb(75, 71, 71);
+        font-family: 'Roboto Slab', serif;
+    }
+
+    p {
+        font-family: Georgia;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    [class*="sl-"] {
+        float: left;
+        padding: 0 10px 0 15px;
+        /*
+        border: 1px solid red;*/
+        width: 100%;
+    }
+
+
+    @media only screen and (min-width: 800px) {
+        .sl-m-1 {
+            width: 8.33%;
+        }
+
+        .sl-m-2 {
+            width: 16.66%;
+        }
+
+        .sl-m-3 {
+            width: 25%;
+        }
+
+        .sl-m-4 {
+            width: 33.33%;
+        }
+
+        .sl-m-5 {
+            width: 41.66%;
+        }
+
+        .sl-m-6 {
+            width: 50%;
+        }
+
+        .sl-m-7 {
+            width: 58.33%;
+        }
+
+        .sl-m-8 {
+            width: 66.66%;
+        }
+
+        .sl-m-9 {
+            width: 75%;
+        }
+
+        .sl-m-10 {
+            width: 83.33%;
+        }
+
+        .sl-m-11 {
+            width: 91.66%;
+        }
+
+        .sl-m-12 {
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .sl-1 {
+            width: 8.33%;
+        }
+
+        .sl-2 {
+            width: 16.66%;
+        }
+
+        .sl-3 {
+            width: 25%;
+        }
+
+        .sl-4 {
+            width: 33.33%;
+        }
+
+        .sl-5 {
+            width: 41.66%;
+        }
+
+        .sl-6 {
+            width: 50%;
+        }
+
+        .sl-7 {
+            width: 58.33%;
+        }
+
+        .sl-8 {
+            width: 66.66%;
+        }
+
+        .sl-9 {
+            width: 75%;
+        }
+
+        .sl-10 {
+            width: 83.33%;
+        }
+
+        .sl-11 {
+            width: 91.66%;
+        }
+
+        .sl-12 {
+            width: 100%;
+        }
+    }
+
+    .radek::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+
+
+    .hlavniStranka {
+        background-color: black;
+        margin: 0 2%;
+        color: white;
+        border-radius: 20px;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        .hlavniStranka {
+            margin: 0 20%;
+        }
+    }
+
+    header {
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+        header h1 {
+            margin: auto;
+            padding: 15px;
+        }
+
+            header h1 span {
+                color: #206040;
+            }
+
+    .hlavniNadpis {
+        margin: auto;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+
+    nav.hlavniMenu {
+        background-color: #206040;
+        padding: 12px 10px;
+        height: auto;
+    }
+
+        nav.hlavniMenu a {
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 0.25em;
+            background-color: black;
+            color: white;
+            padding: 7px 10px;
+            transition-duration: 0.5s;
+            text-decoration: none;
+        }
+
+            nav.hlavniMenu a:hover {
+                background-color: #BFFFE4;
+                color: black;
+            }
+
+        nav.hlavniMenu .aktivni {
+            background-color: #BFFFE4;
+            border: 2px solid black;
+            color: black;
+        }
+
+            nav.hlavniMenu .aktivni:hover {
+                border: 2px solid #BFFFE4;
+                background-color: black;
+                color: white;
+            }
+
+
+
+    /*MOBILY HLAVNI MENU*/
+    @media only screen and (max-width: 800px) {
+        .hlavniStranka {
+            margin: 1%;
+        }
+
+        nav.hlavniMenu a {
+            display: block;
+            text-align: center;
+            margin: 0;
+            border: 2px solid #BFFFE4;
+            margin-bottom: 5px;
+        }
+    }
+    
+    .jednotliveStranky section article a:link {
+        color: #00B366;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    .jednotliveStranky section article a:hover {
+        color: #206040;
+        text-decoration: underline;
+    }
+
+    .jednotliveStranky section article a:visited {
+        text-decoration: underline;
+        color: #206040;
+    }
+
+
+    .hlavniObsah .noveClanky a:link {
+        color: #00B366;
+        display: inline-block;
+        text-decoration: none;
+    }
+
+
+    .hlavniObsah .noveClanky a:hover {
+        color: #BFFFE4;
+        text-decoration: underline;
+    }
+
+    .hlavniObsah .noveClanky a:visited {
+        text-decoration: underline;
+        color: #BFFFE4;
+    }
+
+  
+    .hlavniObsah section div {
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+
+    .hlavniObsah h3 {
+        color: black;
+        display: block;
+        background-color: #00B366;
+        padding: 10px;
+        margin-bottom: 0;
+        font-size: 15px;
+        transition-duration: 0.4s;
+    }
+
+    .hlavniObsah h4 {
+        margin: 0 0 5px;
+        color: #BFFFE4;
+    }
+
+    .hlavniObsah span {
+        margin-right: 20px;
+    }
+
+    .hlavniObsah i {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    /*POSTRANNI MENU*/
+
+    nav.postranniMenu {
+        padding: 0 15px 0;
+        margin: 0;
+    }
+
+        nav.postranniMenu h3 {
+            color: black;
+            display: block;
+            background-color: #00B366;
+            border-top-right-radius: 20px;
+            padding: 10px;
+            margin-bottom: 0;
+            font-size: 15px;
+            transition-duration: 0.4s;
+        }
+
+    html > /**/ body h3:hover {
+        background-color: #BFFFE4;
+    }
+
+    nav.postranniMenu div {
+        text-align: center;
+        padding: 20px;
+        display: block;
+        background-color: rgb(35, 33, 33);
+    }
+
+    nav.postranniMenu div a:link {
+        color: #00B366;
+        display: block;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    nav.postranniMenu div a:hover {
+        color: #BFFFE4;
+        text-decoration: underline;
+    }
+
+    nav.postranniMenu div a:visited {
+        text-decoration: underline;
+        color: #BFFFE4;
+    }
+
+    nav.postranniMenu div i {
+        transition-duration: 0.5s;
+    }
+
+    nav.postranniMenu div i:hover {
+        color: #00B366;
+    }
+
+    article {
+        padding: 5px;
+    }
+
+    article h2 {
+        text-align: left;
+        color: #00B366;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    article a.celyClanek {
+        color: black;
+        display: inline-block;
+        background-color: #BFFFE4;
+        padding: 8px;
+        border: 2px solid black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    article a.celyClanek:hover {
+        color: black;
+        background-color: #00B366;
+    }
+
+
+    article p.hlavicka {
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: #00B366;
+    }
+
+    article p.hlavicka a {
+        color: #00B366;
+        text-decoration: none;
+    }
+
+    article p.hlavicka a:hover {
+        color: #BFFFE4;
+        text-decoration: none;
+    }
+
+    iframe {
+        border-color: transparent;
+    }
+
+
+    img, iframe {
+        margin-top: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    /*NOVINKY, RECENZE, VIDEA, O NÁS*/
+
+    .jednotliveStranky h2 {
+        text-align: center;
+        margin-bottom: 0;
+        color: #BFFFE4;
+    }
+
+
+    .hlavniObsah article p {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .aktuality {
+        background-color: rgb(35, 33, 33);  
+        border-top-right-radius: 20px;      
+    }
+
+    .aktuality span {
+        color: #00B366;
+    }
+
+    .jednotliveStranky article {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .jednotliveStranky article p {
+        text-align: justify;
+    }
+
+    .jednotliveStranky iframe {
+        height: auto;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    .jednotliveStranky #popisek {
+        text-align: center;
+    }
+
+    .jednotliveStranky input {
+        color: black;
+        display: inline-block;
+        background-color: #BFFFE4;
+        padding: 8px;
+        border: 2px solid black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+
+    .jednotliveStranky input:hover {
+        color: black;
+        background-color: #00B366;
+    }
+
+    .recenze img {
+        text-align: left;
+        display: inline;
+        max-width: 40%;
+        height: auto;
+    }
+
+    .jednotliveStranky h1 {
+        color: black;
+        display: block;
+        background-color: #00B366;
+        padding: 10px;
+        margin-bottom: 0;
+        font-size: 25px;
+        transition-duration: 0.4s;
+        margin-top: 15px;
+    }
+
+    .jednotliveStranky hr {
+        width: 80%;
+        height: 2px;
+        background-color: #BFFFE4;
+        border-color: #BFFFE4;
+    }
+
+    .jednotliveStranky .verdikt {
+        font-weight: bold;
+        border-radius: 20px;
+        display: block;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .oNas h2 {
+        background-color: #00B366;
+        display: block;
+        color: black;
+        border-top-right-radius: 20px;
+        padding: 10px;
+        margin-top: 15px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .postranniMenu .aktuality article h4 {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+    }
+
+    .pozitivni {
+        border: 2px solid #00B366;
+        color: #00B366;
+        background-color: #BFFFE4;
+    }
+
+    .negativni {
+        border: 2px solid #990000;
+        color: #990000;
+        background-color: #ff9999;
+    }
+
+    @media only screen and (max-width: 800px) {
+        img, iframe {
+            max-width: 50%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+
+    /*FOOTER*/
+
+    footer {
+        text-align: right;
+        height: 50px;
+        padding: 15px;
+        background-color: #206040;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        margin-top: 2em;
+        color: white;
+    }
+}
+    
+/*PRO TISK*/
+
+@media print {
+    header {
+        display: none;
+    }
+    
+    footer {
+        display: none;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    img {
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    hr {
+        display: none;
+    }
+
+    nav.postranniMenu {
+        display: none;
+    }
+
+    nav.hlavniMenu {
+        display: none;
+    }
+
+    input {
+        display: none;
+    }
+}
+

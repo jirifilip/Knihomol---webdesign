@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Knihomol - videa</title>
+    <link rel="stylesheet" href="styly/stylesheet.css" />
+    <script src="https://use.fontawesome.com/ba30519916.js"></script>
+    <meta name="description" content="Knižní portál" />
+    <meta name="keywords" content="Knihy, Fantasy, Scifi, Recenze" />
+    <meta name="author" content="Jiří Filip" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="32x32" href="obrazky/favicon.ico" />
+</head>
+<body>
+    <div class="hlavniStranka">
+        <!--HEADER-->
+        <header>
+            <h1>Knihomol<span>.</span>cz</h1>
+        </header>
+
+        <!--NAVBAR-->
+        <nav class="hlavniMenu">
+            <a class="domu" href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <a href="novinky.html">Novinky</a>
+            <a href="recenze.html">Recenze</a>
+            <a class="aktivni" href="videa.html">Videa</a>
+            <a href="oNas.html">O nás</a>
+        </nav>
+
+        <div class="radek hlavniObsah">
+            <section class="sl-8 sl-m-9 jednotliveStranky">
+                <h1><i class="fa fa-youtube-play" aria-hidden="true"></i>Videa</h1>
+                <article>
+                    <h2 id="jmeno">Autogramiáda Brandona Sandersona</h2>
+                    <input type="button" value="předchozí" onclick="posun(-1)" />
+                    <iframe id="videoIframe" src="https://www.youtube.com/embed/dPo5lnIIpGk"  allowfullscreen></iframe>
+                    <input type="button" value="další" onclick="posun(1)" />
+                    <hr />
+                    <p class="hlavicka">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i><span id="datumPridani">1.11.2016</span>
+                        <i class="fa fa-user" aria-hidden="true"></i>Jiří Filip
+                    </p>
+                    <p id="popisek">
+                        Na tomto videu můžete vidět autogramiádu Brandona Sandersona.
+                    </p>
+                </article>
+
+                <noscript>
+                    <article>
+                        <h2 >Trailer na knihu Black Prism</h2>
+                        <iframe  src="https://www.youtube.com/embed/k06jBvBQwKQ"  allowfullscreen></iframe>
+                        <hr />
+                        <p class="hlavicka">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i><span >3.10.2016</span>
+                            <i class="fa fa-user" aria-hidden="true"></i>Jiří Filip
+                        </p>
+                        <p >
+                            Podívejte se již nyní na nový trailer ke knize Black Prism.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h2 >Rozhovor s Brentem Weeksem</h2>
+                        <iframe  src="https://www.youtube.com/embed/e0Dvk6MSGDo"  allowfullscreen></iframe>
+                        <hr />
+                        <p class="hlavicka">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i><span >5.10.2016</span>
+                            <i class="fa fa-user" aria-hidden="true"></i>Jiří Filip
+                        </p>
+                        <p >
+                            Brent Weeks prozrazuje několik informací o jeho nové knize.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h2 >Rozhovor s NK Jemisin</h2>
+                        <iframe  src="https://www.youtube.com/embed/HCXWoIwdwMM"  allowfullscreen></iframe>
+                        <hr />
+                        <p class="hlavicka">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i><span >13.10.2016</span>
+                            <i class="fa fa-user" aria-hidden="true"></i>Jiří Filip
+                        </p>
+                        <p >
+                            O knize Sto tisíc království a mnohém dalším.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h2 >Alastair Reynolds v TedX</h2>
+                        <iframe  src="https://www.youtube.com/embed/X4M2IrRR1AU"  allowfullscreen></iframe>
+                        <hr />
+                        <p class="hlavicka">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i><span >25.10.2016</span>
+                            <i class="fa fa-user" aria-hidden="true"></i>Jiří Filip
+                        </p>
+                        <p >
+                            Video vystoupení britského autora science fiction Alastaira Reynoldse v TedX.
+                        </p>
+                    </article>
+                </noscript>
+            </section>
+
+            <nav class="sl-4 sl-m-3 postranniMenu">
+                <section>
+                    <h3>Doporučené odkazy</h3>
+                    <div>
+                        <a href="https://www.reddit.com/r/Fantasy/">Reddit Fantasy</a>
+                        <a href="http://www.tor.com/">Tor.com</a>
+                        <a href="http://www.thewertzone.blogspot.com/">The Wertzone</a>
+                        <a href="http://www.writingexcuses.com/">Writing Excuses</a>
+                    </div>
+                </section>
+                <section>
+                    <h3>Sociální sítě</h3>
+                    <div>
+                        <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    </div>
+                </section>
+            </nav>
+        </div>
+
+
+        <!--FOOTER-->
+        <footer>
+            <span>&copy;</span>Knihomol.cz
+        </footer>
+
+    </div>
+
+
+    <script src="mujScript.js"></script>
+</body>
+
+
+
+</html>
